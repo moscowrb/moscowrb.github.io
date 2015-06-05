@@ -4,6 +4,14 @@ body {
   margin: 0;
 }
 
+a {
+  color: rgb(157, 66, 69);
+  text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+    }
+
 .container {
   clear: both;
   padding: 20px 30px;
@@ -29,8 +37,15 @@ body {
     .about p {
       font-size: 20px;
       }
+  .questions {
+    }
+    .question {
+      font-size: 20px;
+      }
+      .question h3 {
+        font-size: 24px;
+        }
   .events {
-    background-color: rgb(157, 66, 69)
     }
 
 /* Small screens */
@@ -61,6 +76,15 @@ body {
   .about {
     width: 65%;
     }
+  .question {
+    display: block;
+    float: left;
+    width: 30%;
+    padding: 1%;
+    }
+    .question:first-child {
+      margin-left: 3%;
+      }
 }
 
 /* Large screens */
@@ -72,4 +96,13 @@ body {
   .about {
     width: 65%;
     }
+  .question {
+    display: block;
+    float: left;
+    width: 30%;
+    padding: 1%;
+    }
+    .question:first-child {
+      margin-left: 3%;
+      }
 }
