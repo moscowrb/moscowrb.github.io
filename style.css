@@ -47,6 +47,31 @@ a {
         }
   .events {
     }
+    .events h2 {
+      font-size: 28px;
+      }
+  .event {
+    width: 30%;
+    margin: 0 auto;
+    border: 1px solid rgb(221, 76, 76);
+    padding: 0 20px 10px;
+    }
+    .event h3 {
+      font-size: 24px;
+      }
+    .event p {
+      font-size: 16px;
+      }
+    .event address h4 {
+      display: inline-block;
+      margin-top: 0;
+      }
+  .footer {
+    text-align: center;
+    }
+    .footer .container {
+      padding: 1px;
+      }
 
 /* Small screens */
 @media only screen and (max-width: 50em) { /* max-width 640px, mobile-only styles, use when QAing mobile issues */
@@ -61,6 +86,9 @@ a {
       }
   .about {
     width: 100%;
+    }
+  .event {
+    width: 90%;
     }
 }
 
@@ -85,6 +113,9 @@ a {
     .question:first-child {
       margin-left: 3%;
       }
+  .event {
+    width: 50%;
+    }
 }
 
 /* Large screens */
@@ -105,4 +136,7 @@ a {
     .question:first-child {
       margin-left: 3%;
       }
+  .event {
+    width: 30%;
+    }
 }
