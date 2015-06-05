@@ -13,9 +13,9 @@ a {
     }
 
 .container {
-  clear: both;
   padding: 20px 30px;
   }
+  .spacer { clear: both; }
   .logo {
     float: left;
     }
@@ -38,7 +38,12 @@ a {
       font-size: 20px;
       }
   .questions {
+    background-color: rgb(155, 18, 18);
+    color: #fff;
     }
+    .questions a {
+      color: #ffaaaa;
+      }
     .question {
       font-size: 20px;
       }
@@ -68,9 +73,14 @@ a {
       }
   .footer {
     text-align: center;
+    background-color: rgb(155, 18, 18);
+    color: #fff;
     }
     .footer .container {
       padding: 1px;
+      }
+    .footer span {
+      font-weight: 600;
       }
 
 /* Small screens */
@@ -105,6 +115,7 @@ a {
     width: 65%;
     }
   .question {
+    margin-top: 20px;
     display: block;
     float: left;
     width: 30%;
