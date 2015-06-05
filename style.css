@@ -1,0 +1,75 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #fff;
+  margin: 0;
+}
+
+.container {
+  clear: both;
+  padding: 20px 30px;
+  }
+  .logo {
+    float: left;
+    }
+  .about {
+    float: left;
+    margin-top: 5%;
+    }
+    .about h1 {
+      font-size: 50px;
+      line-height: 0px;
+      margin-bottom: 22px;
+      }
+    .about h2 {
+      font-size: 24px;
+      margin-top: 0;
+      font-weight: 100;
+      margin-left: 2px;
+      }
+    .about p {
+      font-size: 20px;
+      }
+  .events {
+    background-color: rgb(157, 66, 69)
+    }
+
+/* Small screens */
+@media only screen and (max-width: 50em) { /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+  .logo {
+    width: 100%;
+    }
+    .logo img {
+      width: 345px;
+      height: 345px;
+      display: block;
+      margin: 0 auto;
+      }
+  .about {
+    width: 100%;
+    }
+}
+
+/* Medium screens */
+@media only screen and (min-width: 50.063em) and (max-width: 90em) { /* min-width 641px and max-width 1440px, use when QAing tablet-only issues */
+  .logo {
+    width: 30%;
+    }
+    .logo img {
+      width: 100%;
+      height: auto;
+      }
+  .about {
+    width: 65%;
+    }
+}
+
+/* Large screens */
+@media only screen and (min-width: 90em) { /* min-width 1440px, large screens */
+  .logo {
+    width: 345px;
+    height: 345px;
+    }
+  .about {
+    width: 65%;
+    }
+}
