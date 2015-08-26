@@ -96,7 +96,7 @@ a {
     }
     .logo img {
       width: 345px;
-      height: 345px;
+      height: 275px;
       display: block;
       margin: 0 auto;
       }
@@ -112,6 +112,8 @@ a {
 @media only screen and (min-width: 50.063em) and (max-width: 90em) { /* min-width 641px and max-width 1440px, use when QAing tablet-only issues */
   .logo {
     width: 30%;
+    margin-top: 5%;
+    margin-right: 1%;
     }
     .logo img {
       width: 100%;
@@ -140,7 +142,13 @@ a {
   .logo {
     width: 345px;
     height: 345px;
+    margin-top: 5%;
+    margin-right: 1%;
     }
+    .logo img {
+      width: 345px;
+      height: 278px;
+      }
   .about {
     width: 65%;
     }
